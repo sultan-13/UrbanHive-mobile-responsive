@@ -66,6 +66,42 @@ main{
     grid-template-columns: repeat(2,1fr);
 }
 
+
+/* discount section  */
+
+.discount-section{
+    padding: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discount-img{
+    width: 100%;
+}
+.discount-img img{
+    width: 70%;
+}
+
+.discount-cart{
+    width: 60px;
+    height: 60px;
+    top: 4%;
+    left: 70%;
+
+}
+
+.discount-info{
+    width: 100%;
+}
+
+.discount-info .title{
+    font-size: 25px;
+}
+
+.discount-info button{
+    font-size: 16px;
+}
+
 }
 
 

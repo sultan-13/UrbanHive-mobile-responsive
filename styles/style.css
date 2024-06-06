@@ -173,7 +173,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .product{
@@ -229,3 +229,61 @@ nav {
 
 
 /* product sections ends */
+
+/* discount starts */
+
+.discount-section{
+    display: flex;
+    align-items: center;
+    background-color: #9376E0;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.discount-img{
+    width: 50%;
+    position: relative;
+}
+
+.discount-img img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+}
+
+.discount-cart{
+    background-color: #F6FFA6;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+
+}
+
+.discount-info{
+    width: 50%;
+
+}
+
+.discount-info .title{
+    font-size: 25px;
+}
+.discount-info .subtitle{
+    margin: 15px 0;
+}
+
+.discount-info button{
+    background: transparent;
+    border: 2px solid #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+/* discount ends */
