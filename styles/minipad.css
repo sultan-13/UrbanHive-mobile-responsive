@@ -3,29 +3,29 @@
 
     /* nav styles */
 
-    header{
+    header {
         padding: 10px;
     }
 
     .nav-items-container {
-        
+
         font-size: 16px;
     }
 
 
     /* banner styles */
 
-    
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         margin-top: 15px;
         gap: 20px;
     }
 
-    .banner-info{
+    .banner-info {
         width: 100%;
         gap: 15px;
-        
+
     }
 
     .banner-title {
@@ -34,74 +34,76 @@
         width: auto;
     }
 
-    .banner-description{
+    .banner-description {
         width: auto;
         font-size: 35px;
     }
 
-    .icon-container,.button-container{
+    .icon-container,
+    .button-container {
         width: auto;
     }
 
-    .fa-brands{
+    .fa-brands {
         font-size: 35px;
         margin-right: 15px;
     }
 
-    .see-more,.shop-now{
+    .see-more,
+    .shop-now {
         font-size: 18px;
     }
 
-    .banner-img{
+    .banner-img {
         width: 70%;
         margin: 0 auto;
     }
 
-/* product styles */
+    /* product styles */
 
-main{
-    padding: 10px;
+    main {
+        padding: 10px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* discount section  */
+
+    .discount-section {
+        padding: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .discount-img {
+        width: 100%;
+    }
+
+    .discount-img img {
+        width: 70%;
+    }
+
+    .discount-cart {
+        width: 60px;
+        height: 60px;
+        top: 4%;
+        left: 70%;
+
+    }
+
+    .discount-info {
+        width: 100%;
+    }
+
+    .discount-info .title {
+        font-size: 25px;
+    }
+
+    .discount-info button {
+        font-size: 16px;
+    }
+
 }
-.products{
-    grid-template-columns: repeat(2,1fr);
-}
-
-
-/* discount section  */
-
-.discount-section{
-    padding: 10px;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.discount-img{
-    width: 100%;
-}
-.discount-img img{
-    width: 70%;
-}
-
-.discount-cart{
-    width: 60px;
-    height: 60px;
-    top: 4%;
-    left: 70%;
-
-}
-
-.discount-info{
-    width: 100%;
-}
-
-.discount-info .title{
-    font-size: 25px;
-}
-
-.discount-info button{
-    font-size: 16px;
-}
-
-}
-
-

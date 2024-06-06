@@ -78,7 +78,7 @@ nav {
 /* banner starts */
 
 
-.banner-container{
+.banner-container {
     display: flex;
     max-width: 1140px;
     margin: 50px auto 0;
@@ -88,14 +88,14 @@ nav {
 }
 
 
-.banner-info{
+.banner-info {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .banner-title {
@@ -111,7 +111,7 @@ nav {
 }
 
 
-.banner-description{
+.banner-description {
     font-size: 50px;
     font-family: "Dancing Script", cursive;
     width: 80%;
@@ -119,12 +119,13 @@ nav {
 
 
 
-.button-container{
+.button-container {
     width: 80%;
 }
 
 
-.see-more,.shop-now{
+.see-more,
+.shop-now {
     background: transparent;
     border: 2px solid #9376e0;
     padding: 10px 20px;
@@ -132,31 +133,31 @@ nav {
     font-size: 18px;
 }
 
-.shop-now{
+.shop-now {
     margin-left: 10px;
 }
 
-.icon-container{
+.icon-container {
     width: 80%;
 }
 
 
 
-.fa-brands{
+.fa-brands {
     font-size: 45px;
     margin-right: 20px;
 }
 
 
-.banner-img{
+.banner-img {
 
     width: 50%;
-    
+
 }
 
 
 
-.banner-img img{
+.banner-img img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -167,64 +168,64 @@ nav {
 
 /* product sections starts */
 
-.products{
+.products {
     max-width: 1140px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     margin-bottom: 50px;
 }
 
-.product{
+.product {
     background-color: rgba(112, 128, 144, 0.253);
     padding: 0px 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px black;
 }
 
-.product img{
+.product img {
     width: 80%;
     margin: 0 auto;
     display: block;
 }
 
-.product-title{
+.product-title {
 
     font-weight: 700;
 }
 
-.product-description{
+.product-description {
     margin: 10px 0;
 }
 
-.product-icon{
+.product-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.icon-style{
+.icon-style {
     margin-left: 5px;
     font-size: 16px;
     padding: 5px;
     border-radius: 50%;
 }
 
-.fa-cart-shopping{
+.fa-cart-shopping {
 
-    background-color: #E893CF ;
+    background-color: #E893CF;
 }
 
-.fa-credit-card{
+.fa-credit-card {
 
-    background-color: green ;
+    background-color: green;
     color: #fff
 }
 
-.fa-eye{
+.fa-eye {
 
-    background-color: #9376E0 ;
+    background-color: #9376E0;
 }
 
 
@@ -232,7 +233,7 @@ nav {
 
 /* discount starts */
 
-.discount-section{
+.discount-section {
     display: flex;
     align-items: center;
     background-color: #9376E0;
@@ -240,19 +241,19 @@ nav {
     margin-bottom: 50px;
 }
 
-.discount-img{
+.discount-img {
     width: 50%;
     position: relative;
 }
 
-.discount-img img{
+.discount-img img {
     width: 70%;
     margin: 0 auto;
     display: block;
     height: 100%;
 }
 
-.discount-cart{
+.discount-cart {
     background-color: #F6FFA6;
     width: 70px;
     height: 70px;
@@ -267,56 +268,59 @@ nav {
 
 }
 
-.discount-info{
+.discount-info {
     width: 50%;
 
 }
 
-.discount-info .title{
+.discount-info .title {
     font-size: 25px;
 }
-.discount-info .subtitle{
+
+.discount-info .subtitle {
     margin: 15px 0;
 }
 
-.discount-info button{
+.discount-info button {
     background: transparent;
     border: 2px solid #fff;
     font-weight: 700;
     font-size: 18px;
     padding: 10px 20px;
 }
+
 /* discount ends */
 
 /* review section starts */
 
-.review-container{
+.review-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
-.single-review{
+.single-review {
     width: 300px;
     background-color: #E893CF;
     border-radius: 10px;
     padding: 10px;
 }
 
-.single-review img{
+.single-review img {
     width: 60px;
     height: 60px;
 }
 
-.review-info{
+.review-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.name{
+.name {
     font-weight: 700;
 }
 
@@ -324,4 +328,24 @@ nav {
 /* review section ends */
 
 
+/* footer starts */
 
+
+footer{
+    height: 40vh;
+    background-color: #9376E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo-container{
+    justify-content: center;
+}
+
+
+
+
+
+/* footer ends */
