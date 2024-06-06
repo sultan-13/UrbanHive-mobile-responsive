@@ -68,7 +68,7 @@ nav {
     border-radius: 5px;
 }
 
-.fa-solid {
+.login-btn .fa-solid {
     color: #9376e0;
     padding-left: 5px;
 }
@@ -129,6 +129,7 @@ nav {
     border: 2px solid #9376e0;
     padding: 10px 20px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .shop-now{
@@ -143,7 +144,7 @@ nav {
 
 .fa-brands{
     font-size: 45px;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 
@@ -163,3 +164,68 @@ nav {
 
 
 /* banner ends */
+
+/* product sections starts */
+
+.products{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.product{
+    background-color: rgba(112, 128, 144, 0.253);
+    padding: 0px 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.product img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-title{
+
+    font-weight: 700;
+}
+
+.product-description{
+    margin: 10px 0;
+}
+
+.product-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-style{
+    margin-left: 5px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-cart-shopping{
+
+    background-color: #E893CF ;
+}
+
+.fa-credit-card{
+
+    background-color: green ;
+    color: #fff
+}
+
+.fa-eye{
+
+    background-color: #9376E0 ;
+}
+
+
+/* product sections ends */
